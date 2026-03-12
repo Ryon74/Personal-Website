@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test plot </title>
+    <style>
+        .projects-container {
+            text-align: center;
+            margin: 0 auto;
+        }
+        .project-description {
+            margin: 0 auto;
+            text-align: left;
+        }
+        .projects-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .project-card {
+            width: 33%;
+            text-align: left;
+        }
+        @media (max-width: 900px) {
+            .project-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="projects-container">
+        <h1>Projects</h1>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h2>Medical Text Analysis Framework (Textacular)</h2>
+                <p class="project-description">For this project, I built a reusable Python text analysis framework applied to medical abstracts spanning eight different specialties. Using NLP techniques, cosine similarity, and Sankey diagrams, the framework identified thematic relationships and knowledge flow across medical fields. The project emphasized modularity and reproducibility, designed so that the pipeline could be dropped onto any text dataset with minimal reconfiguration.</p>
+                <div class="project-image" style="margin-top: 15px; text-align: center;">
+                    <img src="mar10.png" alt="Medical text project image" style="max-width: 90%; height: auto; border-radius: 8px;" />
+                </div>
+            </div>
+            <div class="project-card">
+                <h2>Employee Retention Predictive Modeling</h2>
+                <p class="project-description">During my time at City Year, I developed machine learning models to predict employee retention and identify at-risk staff before attrition occurred. Using Random Forest and Logistic Regression in Python, I engineered features from organizational data and compared model performance to maximize predictive accuracy. The insights generated were directly actionable, giving leadership a data-driven foundation for intervention strategies.</p>
+                <div class="project-image" style="margin-top: 15px; text-align: center;">
+                    <img src="employee-retention.png" alt="Latest uploaded project image" style="max-width: 90%; height: auto; border-radius: 8px;" />
+                </div>
+            </div>
+            <div class="project-card">
+                <h2>Superfood Classification Pipeline</h2>
+                <p class="project-description">This project tackled a machine learning classification problem centered on identifying superfoods from nutritional data. I compared Perceptron and K-Nearest Neighbors models, with the Perceptron ultimately achieving 96.8% accuracy. A key focus of the project was handling class imbalance in the dataset, ensuring the model performed reliably across both majority and minority classes rather than simply optimizing for overall accuracy.</p>
+                <div class="project-image" style="margin-top: 15px; text-align: center;">
+                    <img src="superfood.png" alt="Superfood classification screenshot" style="max-width: 90%; height: auto; border-radius: 8px;" />
+                </div>
+            </div>
+        </div>
+
+        <div class="other-projects" style="margin-top: 30px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto;">
+            <h2>Other projects</h2>
+            <ul>
+                <li>Stress Prediction Model</li>
+                <li>Twitter Data Analysis</li>
+                <li>Predicting Diseases</li>
+                <li>Analyzing Dog Breeds</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>

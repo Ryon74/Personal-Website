@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 { 
+    text-align: center;
+}
+
+.contact-header {
+    text-align: left;
+}
+
+p {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#main {
+
+    width: 1000px;
+}
+
+.A {
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(199, 176, 221);
+}
+
+.contact-links {
+    text-align: left;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.contact-links a:hover {
+    background-color: #0056b3;
+}
+
+.photo-row {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.photo-row img {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.projects-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.projects-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.projects-btn:hover {
+    background-color: #218838;
+}
